@@ -4,16 +4,16 @@
 
 ## コマンドメモ
 
-### コンパイル（ts→js）
+- コンパイル（ts→js）
 
-`npx tsc`
+　`npx tsc`
 
-### js ファイルの実行
+- js ファイルの実行
 
-`node dist/xxx.js`
+　`node dist/xxx.js`
 
-### ts ファイルの実行（コンパイル～実行）
+- ts ファイルの実行（コンパイル～実行）
 
-_※--esm は、ts-node で ESModules のファイルを実行するためのオプション_
+　`ts-node --esm xxx.ts`
 
-`ts-node --esm xxx.ts`
+　_※--esm は、ts-node で ESModules のファイルを実行するためのオプション_
