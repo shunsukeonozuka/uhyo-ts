@@ -15,4 +15,5 @@
 ### ts ファイルの実行（コンパイル～実行）
 
 _※--esm は、ts-node で ESModules のファイルを実行するためのオプション_
+
 `ts-node --esm xxx.ts`
