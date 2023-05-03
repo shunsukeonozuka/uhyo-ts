@@ -1,3 +1,5 @@
-const result = 5n / 2n;
-console.log(result);
-// >2n
+{
+  const result = 5n / 2n;
+  console.log(result);
+  // >2n
+}
